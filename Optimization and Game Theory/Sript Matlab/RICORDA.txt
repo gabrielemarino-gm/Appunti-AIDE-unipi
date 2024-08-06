@@ -1,0 +1,24 @@
+- MULTI-OBJECTIVE: SE IL SET è CONVESSO E TUTTE LE FUNZIONI SONO CONVESSE SU X -> TUTTI GLI WEAK MINIMA SONO CONTENUTI NELLE SOLUZIONI DELLO SCALARIZED 
+- MULTI-OBJECTIVE: PER DIMOSTRARE UN MINIMO DI PARETO BASTA TROVARE UN MINIMO ALLA SCALARIZED CON alfa>0
+- MULTI-OBJECTIVE: SOLO CON alfa=0 SI HANNO WEAK MINIMA, IL RESTO SONO MINIMI DI PARETO; tranne che se alfa=0 la funzione che rimane è strongly convex
+- STRONGLY CONVEX FUNCTION ON CLOSED SET -> AMMETTE MINIMO GLOBALE. insieme chiuso vuol dire che contiene il bordo
+- CLEAR: clc, clear
+- P1 cancella righe piu grandi, P2 cancella colonne piu piccole (monomatrix) o grandi (bimatrix). P1 minimizza su colonne, P2 massimizza righe (monomatrix) minimizza (bimatrix)
+- Nel bimatrix, nel sistema trucchetto non compaiono righe e colonne cancellate
+- RICORDARSI DI SCRIVERE ALPHA1 E NON ALPHA
+
+
+
+*CONDIZIONI DI OTTIMO:
+- MULTIOBIETTIVO: tutte le f continue, X chiuso, esiste una fi coerciva -> esiste minimo di pareto
+- MULTIOBIETTIVO: se le f sono continue e X compatto (chiuso e limitato) -> esiste minimo pareto (waierstrass)
+- MULTIOBIETTIVO: ideal minimum se la soluzione con alpha=1 e alpha=0 coincide, perche minimizza entrambe le funzioni obiettivo
+- MULTIOBIETTIVO: seuna f ha un unico min globale è anche min di pareto
+- MULTIOBIETTIVO: se ACQ sono rispettate ogni weak minima risolve KKT per qualche sigma,lambda,mu, per questo con KKT si trova tutto il set
+- KKT: isolare lambda nella prima o nella seconda equazione e sostituire nella rimanente. Poi analizzo per alpha=0 e >0, se è >0 posso dividere per alpha levandola,
+  nel caso alpha>0 poi divido nei due casi lambda=0 applicandolo alle complimentarity condition o lambda>0, dovendosi quindi annullare il vincolo. L'ordine dello
+  azzerare alpha e poi lambda potrebbe essere invertito ma si gioca sempre su questi due fattori. NON lasciare mai x1 e x2 in funzione di alpha ma trovare alpha
+  dalle feasability condition (vincoli di P) e dal fatto che stanno tra 0 e 1
+- f strongly convex e X chiuso (include bordo o R) -> esiste minimo globale e unico
+
+- ATTENZIONE: SE NEL MULTIOBIETTIVO NON E' CONVESSO studiare l'hessiana dello scalarizzato
