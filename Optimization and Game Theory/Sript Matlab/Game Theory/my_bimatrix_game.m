@@ -48,6 +48,7 @@ sol1_str = char(sol1); % Converti sol1 in una stringa
 
 % Sostituisco a f1: y(1) = 0, e poi controllo la derivata se è positiva o
 % negativa, dato che si tratta di una retta (Il suo coefficente angolare)
+disp("ATTENZIONE: La seguente soluzione potrebbe essere errata, controllare facendo i conti a mano");
 disp("BEST RESPONSE MAPPING:");
 if (diff(subs(f1, y(1), 0), x(1)) >= 0) % Se la retta ha pendenza positiva
     disp("{ B1(" + char(y(1)) + ") = 0,          per " + char(y(1)) + " = [0, " + sol1_str + ")"); 
@@ -101,6 +102,7 @@ eq2 = diff(f2, y(1)) == 0;
 sol2 = solve(eq2, x(1));
 sol2_str = char(sol2); % Converti sol2 in una stringa
 
+disp("ATTENZIONE: La seguente soluzione potrebbe essere errata, controllare facendo i conti a mano");
 disp("BEST RESPONSE MAPPING:");
 if (diff(subs(f2, x(1), 0), y(1)) >= 0) % Se la retta ha pendenza positiva
     disp("{ B2(" + char(x(1)) + ") = 0,          per " + char(x(1)) + " = [0, " + sol2_str + ")");
@@ -123,6 +125,7 @@ end
 
 
 % Risolti i sistemi di equazioni, si ottengono i punti di equilibrio misti per i due giocatori. 
+disp("ATTENZIONE: La seguente soluzione potrebbe essere errata, controllare facendo i conti a mano");
 disp(" ");
 disp("Le coppie di punti (" + char(x(1)) + ", " + char(y(1)) + ") tale per cui " + char(x(1)) + " € B1(" + char(y(1)) + ") e " + char(y(1)) + " € B2(" + char(x(1)) + ") sono:");
 disp(char(x(1)) + " = " + x_0 + ", " + char(y(1)) + " = " + y_0 );
