@@ -24,4 +24,4 @@ Di seguito i link alle repository dei vari progetti svolti durante questi anni:
 
 # ATTENZIONE
 
-I seguenti appunti potrebbero contenere errori o presentare concetti non completamente dettagliati. Pertanto, è fortemente consigliato integrarli con altre fonti autorevoli.
+I precedenti appunti/progetti potrebbero contenere errori o presentare concetti non completamente dettagliati. Pertanto, è fortemente consigliato integrarli con altre fonti autorevoli.
