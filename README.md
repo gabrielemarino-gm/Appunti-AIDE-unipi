@@ -21,4 +21,4 @@ Di seguito i link alle repository dei vari prigetti svolti durante questi anni:
 -  <a href="https://github.com/gabrielemarino-gm/Search-Engine-MIRCV"> Multimedia Information Retrieval and Computer Vision </a>
 
 # ATTENZIONE
-I seguenti appunti potrebbero contenere errori, o concetti poco dettagliati, per ciò è fortemente consigliato integrare da fonti diverse.
+I seguenti appunti potrebbero contenere errori o presentare concetti non completamente dettagliati. Pertanto, è fortemente consigliato integrarli con altre fonti autorevoli.
