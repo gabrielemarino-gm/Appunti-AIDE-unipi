@@ -22,6 +22,6 @@ Di seguito i link alle repository dei vari progetti svolti durante questi anni:
 - [Internet of Things](https://github.com/gabrielemarino-gm/IOT-F1-Temperature-Tyres)
 - [Multimedia Information Retrieval and Computer Vision](https://github.com/gabrielemarino-gm/Search-Engine-MIRCV)
 
-## Attenzione
+# ATTENZIONE
 
 I seguenti appunti potrebbero contenere errori o presentare concetti non completamente dettagliati. Pertanto, è fortemente consigliato integrarli con altre fonti autorevoli.
