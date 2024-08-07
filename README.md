@@ -25,9 +25,3 @@ Di seguito i link alle repository dei vari progetti svolti durante questi anni:
 ## Attenzione
 
 I seguenti appunti potrebbero contenere errori o presentare concetti non completamente dettagliati. Pertanto, è fortemente consigliato integrarli con altre fonti autorevoli.
-
-## Contatti
-
-Se hai domande, suggerimenti o vuoi collaborare, puoi contattarmi all'indirizzo email: [tuoindirizzoemail@example.com](mailto:tuoindirizzoemail@example.com).
-
-## Licenza
