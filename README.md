@@ -1,4 +1,4 @@
-# Appunti di Magistrale in AIDE (Artificial Intelligence and Data Engineering) [22/23, 23/24]
+# Appunti di Magistrale in AIDE (Artificial Intelligence and Data Engineering) - [2022, 2024]
 
 Benvenuti nella mia repository di appunti per il corso di laurea magistrale in Artificial Intelligence and Data Engineering (AIDE) presso l'Università di Pisa. Gli appunti fanno riferimento al periodo 2022/2023 per il primo anno e 2023/2024 per il secondo. Questa repository contiene appunti presi a mano e in italiano da me per alcuni dei corsi che ho seguito, oltre che qualche script utile.
 
